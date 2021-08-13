@@ -36,7 +36,7 @@ const TeacherItem: React.FC<TeacheItemProps> = ({ teacher }) => {
             <p>{teacher.bio}</p>
             <footer>
                 <p>
-                    Preço/hora
+                    Preço/horaa
                     <strong>R$ {teacher.cost}</strong>
                 </p>
                 <a
