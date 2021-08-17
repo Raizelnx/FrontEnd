@@ -37,16 +37,16 @@ function TeacherList() {
                         value={subject}
                         onChange={e => { setsubject(e.target.value) }}
                         options={[
-                            { value: 'Artes', label: 'Artes' },
-                            { value: 'Biologia', label: 'Biologia' },
-                            { value: 'Ciências', label: 'Ciências' },
-                            { value: 'Educação física', label: 'Educação física' },
-                            { value: 'Física', label: 'Física' },
-                            { value: 'Geografia', label: 'Geografia' },
-                            { value: 'História', label: 'História' },
-                            { value: 'Matemática', label: 'Matemática' },
-                            { value: 'Português', label: 'Português' },
-                            { value: 'Química', label: 'Química' }
+                            { value: 'Administração, Economia e Negócios', label: 'Administração' },
+                            { value: 'Ciências Sociais', label: 'Ciências Sociais' },
+                            { value: 'Comunicação e Mídia', label: 'Comunicação e Mídia' },
+                            { value: 'Design e Arte', label: 'Design e Arte' },
+                            { value: 'Direito', label: 'Direito' },
+                            { value: 'Educação', label: 'Educação' },
+                            { value: 'Engenharia e Arquitetura', label: 'Engenharia e Arquitetura' },
+                            { value: 'Informação e Tecnologia', label: 'Informação e Tecnologia' },
+                            { value: 'Saúde', label: 'Saúde' },
+                            { value: 'Turismo e Gastronomia', label: 'Turismo e Gastronomia' }
                         ]}
                     />
                     <Select

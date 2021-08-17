@@ -65,7 +65,7 @@ function TeacherForm() {
     return (
         <div id="page-teacher-form" className="container">
             <PageHeader
-                title="Que incrível que você quer dar aulas."
+                title="Bem vindo ao cadastro de mentoria."
                 description="O primeiro passo é preencher esse formulário de inscrição"
             />
 
@@ -104,30 +104,30 @@ function TeacherForm() {
                     </fieldset>
 
                     <fieldset>
-                        <legend>Sobre a aula</legend>
+                        <legend>Sobre a área profissional de mentoria</legend>
 
                         <Select
                             name="subject"
-                            label="Matéria"
+                            label="Curso"
                             value={subject}
                             onChange={(e) => { setSubject(e.target.value) }}
                             options={[
-                                { value: 'Artes', label: 'Artes' },
-                                { value: 'Biologia', label: 'Biologia' },
-                                { value: 'Ciências', label: 'Ciências' },
-                                { value: 'Educação física', label: 'Educação física' },
-                                { value: 'Física', label: 'Física' },
-                                { value: 'Geografia', label: 'Geografia' },
-                                { value: 'História', label: 'História' },
-                                { value: 'Matemática', label: 'Matemática' },
-                                { value: 'Português', label: 'Português' },
-                                { value: 'Química', label: 'Química' }
+                                { value: 'Administração, Economia e Negócios', label: 'Administração' },
+                                { value: 'Ciências Sociais', label: 'Ciências Sociais' },
+                                { value: 'Comunicação e Mídia', label: 'Comunicação e Mídia' },
+                                { value: 'Design e Arte', label: 'Design e Arte' },
+                                { value: 'Direito', label: 'Direito' },
+                                { value: 'Educação', label: 'Educação' },
+                                { value: 'Engenharia e Arquitetura', label: 'Engenharia e Arquitetura' },
+                                { value: 'Informação e Tecnologia', label: 'Informação e Tecnologia' },
+                                { value: 'Saúde', label: 'Saúde' },
+                                { value: 'Turismo e Gastronomia', label: 'Turismo e Gastronomia' }
                             ]}
                         />
 
                         <Input
                             name="cost"
-                            label="Custo da sua hora por aula"
+                            label="Custo da sua hora por mentoria"
                             value={cost}
                             onChange={(e) => { setCost(e.target.value) }}
                         />
